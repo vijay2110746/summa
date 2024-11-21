@@ -3,7 +3,7 @@
        stages {
            stage('Clone Repository') {
                steps {
-                   git 'https://github.com/your-repo/my_python_app.git'
+                   git 'https://github.com/vijay2110746/summa.git'
                }
            }
            stage('Install Dependencies') {
