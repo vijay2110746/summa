@@ -3,7 +3,7 @@
        stages {
            stage('Clone Repository') {
                steps {
-                   git clone 'https://github.com/vijay2110746/summa.git'
+                   git 'https://github.com/vijay2110746/summa.git'
                }
            }
            stage('Install Dependencies') {
